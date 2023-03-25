@@ -1,0 +1,30 @@
+{
+  "name": "erc-721-variations",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.2",
+    "@typechain/ethers-v5": "^10.2.0",
+    "@typechain/hardhat": "^6.1.5",
+    "hardhat": "^2.13.0",
+    "merkletreejs": "^0.3.9",
+    "operator-filter-registry": "^1.4.1",
+    "prettier": "^2.8.4",
+    "prettier-plugin-solidity": "^1.1.3",
+    "typechain": "^8.1.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "test": "npx hardhat test",
+    "vertigo": "vertigo run --sample-ratio 0.1 --hardhat-parallel 8"
+  },
+  "keywords": [],
+  "author": "Ivan Zhelyazkov",
+  "license": "ISC"
+}
